@@ -1,7 +1,7 @@
 Microsoft Windows [Version 10.0.19045.6216]
 (c) Microsoft Corporation. All rights reserved.
 
-D:\democ2\gitchatc2\bin\Debug>cmd /k aXBjb25maWc=
+D:\democ2\gitchatc2\bin\Debug>cmd /k d2hvYW1p
 
 D:\democ2\gitchatc2\bin\Debug>
 D:\democ2\gitchatc2\bin\Debug>
