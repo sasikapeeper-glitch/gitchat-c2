@@ -1,7 +1,21 @@
 Microsoft Windows [Version 10.0.19045.6216]
 (c) Microsoft Corporation. All rights reserved.
 
-D:\democ2\gitchatc2\bin\Debug>cmd /k cd ../../..
+D:\democ2\gitchatc2\bin\Debug>cmd /k dir
+ Volume in drive D has no label.
+ Volume Serial Number is 08F8-942F
 
-D:\democ2>
+ Directory of D:\democ2\gitchatc2\bin\Debug
+
+09/10/2025  03:24 PM    <DIR>          .
+09/10/2025  03:24 PM    <DIR>          ..
+09/10/2025  03:24 PM            10,240 gitchatc2.exe
+09/10/2025  01:19 PM               187 gitchatc2.exe.config
+09/10/2025  03:24 PM            22,016 gitchatc2.pdb
+10/07/2017  12:56 AM           773,120 Octokit.dll
+10/07/2017  12:56 AM         1,723,900 Octokit.xml
+               5 File(s)      2,529,463 bytes
+               2 Dir(s)  561,962,299,392 bytes free
+
+D:\democ2\gitchatc2\bin\Debug>
 D:\democ2\gitchatc2\bin\Debug>
