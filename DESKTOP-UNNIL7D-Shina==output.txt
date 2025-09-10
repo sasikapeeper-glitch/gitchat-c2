@@ -1,269 +1,577 @@
 Microsoft Windows [Version 10.0.19045.6216]
 (c) Microsoft Corporation. All rights reserved.
 
-D:\democ2\gitchatc2\bin\Debug>cmd /k tasklist
+D:\democ2\gitchatc2\bin\Debug>cmd /k schtasks
 
-Image Name                     PID Session Name        Session#    Mem Usage
-========================= ======== ================ =========== ============
-System Idle Process              0 Services                   0          8 K
-System                           4 Services                   0         64 K
-Registry                       124 Services                   0     75,812 K
-smss.exe                       444 Services                   0        432 K
-csrss.exe                      576 Services                   0      3,392 K
-wininit.exe                    664 Services                   0      2,904 K
-csrss.exe                      672 Console                    1      5,064 K
-winlogon.exe                   764 Console                    1      8,096 K
-services.exe                   808 Services                   0      8,148 K
-lsass.exe                      816 Services                   0     17,008 K
-svchost.exe                    956 Services                   0     28,908 K
-fontdrvhost.exe                984 Console                    1      5,432 K
-fontdrvhost.exe                980 Services                   0      1,956 K
-svchost.exe                    600 Services                   0     15,880 K
-svchost.exe                    848 Services                   0      7,640 K
-svchost.exe                   1088 Services                   0      5,912 K
-svchost.exe                   1096 Services                   0      9,808 K
-svchost.exe                   1104 Services                   0      2,352 K
-dwm.exe                       1204 Console                    1     89,220 K
-IntelCpHDCPSvc.exe            1244 Services                   0      3,260 K
-svchost.exe                   1276 Services                   0      3,836 K
-svchost.exe                   1296 Services                   0      4,876 K
-svchost.exe                   1392 Services                   0     12,448 K
-svchost.exe                   1528 Services                   0      5,604 K
-IntelCpHeciSvc.exe            1548 Services                   0      3,020 K
-svchost.exe                   1608 Services                   0     11,836 K
-svchost.exe                   1628 Services                   0     10,344 K
-svchost.exe                   1640 Services                   0      6,772 K
-igfxCUIService.exe            1716 Services                   0      5,004 K
-svchost.exe                   1796 Services                   0      4,204 K
-svchost.exe                   1864 Services                   0      8,392 K
-svchost.exe                   1916 Services                   0      5,296 K
-svchost.exe                   1948 Services                   0     11,656 K
-svchost.exe                   1952 Services                   0      3,104 K
-svchost.exe                   2040 Services                   0      4,480 K
-svchost.exe                    852 Services                   0      5,344 K
-Memory Compression            2068 Services                   0    235,016 K
-svchost.exe                   2144 Services                   0      9,640 K
-svchost.exe                   2228 Services                   0      3,252 K
-svchost.exe                   2304 Services                   0      5,272 K
-svchost.exe                   2364 Services                   0      7,584 K
-svchost.exe                   2388 Services                   0     11,088 K
-svchost.exe                   2560 Services                   0      7,184 K
-svchost.exe                   2568 Services                   0      5,680 K
-svchost.exe                   2576 Services                   0      8,892 K
-svchost.exe                   2648 Services                   0     11,088 K
-svchost.exe                   2696 Services                   0     15,488 K
-svchost.exe                   2780 Services                   0      3,544 K
-svchost.exe                   2860 Services                   0      5,288 K
-spoolsv.exe                   2888 Services                   0      9,632 K
-svchost.exe                   3020 Services                   0     14,252 K
-svchost.exe                   3068 Services                   0      4,752 K
-svchost.exe                   3208 Services                   0     26,860 K
-svchost.exe                   3232 Services                   0     37,912 K
-svchost.exe                   3240 Services                   0      3,036 K
-svchost.exe                   3248 Services                   0     17,148 K
-svchost.exe                   3256 Services                   0     32,836 K
-svchost.exe                   3268 Services                   0      3,312 K
-svchost.exe                   3276 Services                   0     16,484 K
-openvpnserv.exe               3284 Services                   0      2,708 K
-sqlwriter.exe                 3344 Services                   0      3,968 K
-vmnetdhcp.exe                 3360 Services                   0      3,984 K
-OneApp.IGCC.WinService.ex     3372 Services                   0     36,416 K
-vmnat.exe                     3404 Services                   0      6,084 K
-TPMProvisioningService.ex     3416 Services                   0      4,908 K
-ManagerService.exe            3428 Services                   0      4,256 K
-WMIRegistrationService.ex     3436 Services                   0      9,096 K
-jhi_service.exe               3460 Services                   0      2,812 K
-MsMpEng.exe                   3496 Services                   0    280,760 K
-MpDefenderCoreService.exe     3504 Services                   0     16,960 K
-CoordinatorService.exe        3568 Services                   0     22,072 K
-LicenseService.exe            3580 Services                   0      7,848 K
-svchost.exe                   3684 Services                   0      2,572 K
-endpointService.exe           3728 Services                   0      4,936 K
-svchost.exe                   3772 Services                   0      6,412 K
-svchost.exe                   3792 Services                   0      6,244 K
-vmware-authd.exe              3816 Services                   0      8,848 K
-vmware-usbarbitrator64.ex     3840 Services                   0      7,492 K
-BuildService.exe              3880 Services                   0     14,684 K
-svchost.exe                   3912 Services                   0      7,536 K
-Manager.exe                   4212 Services                   0    110,292 K
-conhost.exe                   4324 Services                   0      5,048 K
-openvpnserv2.exe              4876 Services                   0     10,000 K
-svchost.exe                   5100 Services                   0      4,488 K
-dllhost.exe                   5428 Services                   0      9,500 K
-svchost.exe                   5524 Services                   0      5,220 K
-SearchIndexer.exe             5756 Services                   0     46,484 K
-AggregatorHost.exe            3200 Services                   0      6,508 K
-NisSrv.exe                    6216 Services                   0      8,676 K
-svchost.exe                   6276 Services                   0     21,204 K
-MoUsoCoreWorker.exe           6348 Services                   0     35,416 K
-svchost.exe                   7052 Services                   0      7,524 K
-sihost.exe                    4760 Console                    1     28,420 K
-svchost.exe                   4920 Console                    1     17,404 K
-igfxEM.exe                    4816 Console                    1      9,704 K
-svchost.exe                   6500 Console                    1     34,384 K
-taskhostw.exe                 5948 Console                    1     17,004 K
-svchost.exe                   1384 Services                   0     18,904 K
-svchost.exe                   6672 Services                   0      4,540 K
-ctfmon.exe                    6724 Console                    1     19,544 K
-svchost.exe                    760 Services                   0     11,652 K
-explorer.exe                  1972 Console                    1    206,580 K
-svchost.exe                   7480 Console                    1     20,320 K
-dllhost.exe                   7616 Console                    1     11,092 K
-svchost.exe                   7816 Console                    1     21,576 K
-StartMenuExperienceHost.e     7532 Console                    1     80,952 K
-RuntimeBroker.exe             7632 Console                    1     31,512 K
-SearchApp.exe                 8280 Console                    1    119,020 K
-RuntimeBroker.exe             8480 Console                    1     45,180 K
-svchost.exe                   9088 Services                   0     16,168 K
-RuntimeBroker.exe             9312 Console                    1     24,716 K
-svchost.exe                   9368 Services                   0      9,760 K
-SecurityHealthSystray.exe    10100 Console                    1      6,040 K
-SecurityHealthService.exe    10132 Services                   0     12,876 K
-OneDrive.exe                 10208 Console                    1    102,520 K
-openvpn-gui.exe               9720 Console                    1      9,188 K
-svchost.exe                   7376 Services                   0      5,472 K
-xgTrayIcon.exe                3980 Console                    1     10,480 K
-vmware-tray.exe               3380 Console                    1      9,012 K
-ApplicationFrameHost.exe      2472 Console                    1     29,908 K
-UserOOBEBroker.exe            4208 Console                    1      7,384 K
-SearchApp.exe                 6976 Console                    1     84,104 K
-msedgewebview2.exe            1888 Console                    1    112,296 K
-msedgewebview2.exe            5360 Console                    1      7,680 K
-msedgewebview2.exe           10032 Console                    1    190,060 K
-msedgewebview2.exe            3828 Console                    1     40,880 K
-msedgewebview2.exe            6944 Console                    1     20,264 K
-msedgewebview2.exe           10328 Console                    1    164,076 K
-svchost.exe                  11260 Services                   0     13,504 K
-svchost.exe                  10632 Services                   0      7,780 K
-svchost.exe                  10836 Services                   0      6,324 K
-ShellExperienceHost.exe      10760 Console                    1     57,004 K
-RuntimeBroker.exe            10656 Console                    1     15,712 K
-FileCoAuth.exe                8256 Console                    1     21,872 K
-TextInputHost.exe             5464 Console                    1     45,384 K
-chrome.exe                    6096 Console                    1    240,944 K
-chrome.exe                    8300 Console                    1      6,336 K
-chrome.exe                    8576 Console                    1    392,064 K
-chrome.exe                    5852 Console                    1     59,840 K
-chrome.exe                   13372 Console                    1     17,272 K
-chrome.exe                   13728 Console                    1     65,336 K
-chrome.exe                   13840 Console                    1    275,416 K
-CompPkgSrv.exe               14240 Console                    1      6,808 K
-svchost.exe                  18976 Services                   0     17,516 K
-chrome.exe                    8496 Console                    1     19,968 K
-chrome.exe                   19064 Console                    1     31,372 K
-chrome.exe                   18436 Console                    1    106,548 K
-dllhost.exe                   4692 Console                    1     11,236 K
-LockApp.exe                  15272 Console                    1     62,680 K
-RuntimeBroker.exe            16012 Console                    1     30,464 K
-svchost.exe                    232 Services                   0      8,924 K
-vmware.exe                   21760 Console                    1     71,044 K
-vmware-unity-helper.exe      15468 Console                    1     17,872 K
-vmware-vmx.exe               17484 Console                    1    965,820 K
-mksSandbox.exe                5640 Console                    1     85,492 K
-conhost.exe                  20524 Console                    1      5,652 K
-tpm2emu.exe                  22584 Console                    1      8,916 K
-conhost.exe                  22592 Console                    1      5,564 K
-dllhost.exe                  20352 Console                    1     15,192 K
-msedge.exe                   16884 Console                    1     94,776 K
-msedge.exe                    7572 Console                    1     10,456 K
-msedge.exe                    7488 Console                    1     36,216 K
-msedge.exe                   10060 Console                    1     36,612 K
-msedge.exe                   20856 Console                    1     19,852 K
-svchost.exe                  14592 Services                   0      9,688 K
-MusNotifyIcon.exe            17664 Console                    1        952 K
-chrome.exe                   22436 Console                    1    188,556 K
-StandardCollector.Service    19776 Services                   0    117,932 K
-chrome.exe                    3968 Console                    1     46,548 K
-chrome.exe                   15736 Console                    1    223,384 K
-chrome.exe                    8056 Console                    1     42,748 K
-chrome.exe                   18516 Console                    1    243,284 K
-chrome.exe                   18444 Console                    1    159,216 K
-chrome.exe                   21076 Console                    1    221,568 K
-chrome.exe                   17688 Console                    1    124,680 K
-chrome.exe                    3296 Console                    1    123,652 K
-chrome.exe                   17580 Console                    1     51,908 K
-chrome.exe                   14740 Console                    1    107,844 K
-chrome.exe                   14636 Console                    1    255,436 K
-devenv.exe                    7496 Console                    1  1,111,844 K
-PerfWatson2.exe              20588 Console                    1     60,384 K
-Microsoft.ServiceHub.Cont      716 Console                    1     83,636 K
-ServiceHub.VSDetouredHost    14084 Console                    1     87,684 K
-ServiceHub.IdentityHost.e    15532 Console                    1     88,644 K
-ServiceHub.Host.dotnet.x6    18888 Console                    1    188,776 K
-ServiceHub.RoslynCodeAnal    22476 Console                    1    277,052 K
-ServiceHub.ThreadedWaitDi     4296 Console                    1    111,780 K
-copilot-language-server.e    15312 Console                    1     81,108 K
-conhost.exe                   1308 Console                    1      6,140 K
-ServiceHub.IndexingServic     2836 Console                    1     68,656 K
-ServiceHub.IntellicodeMod    19720 Console                    1    131,552 K
-ServiceHub.TestWindowStor    17136 Console                    1     68,300 K
-chrome.exe                    7176 Console                    1    196,704 K
-SystemSettings.exe           15420 Console                    1      1,948 K
-notepad.exe                  17296 Console                    1     13,904 K
-ServiceHub.DataWarehouseH     1728 Console                    1    126,476 K
-OneDrive.Sync.Service.exe     6556 Console                    1     13,424 K
-devenv.exe                   22696 Console                    1    901,040 K
-PerfWatson2.exe               5216 Console                    1     64,128 K
-Microsoft.ServiceHub.Cont     7348 Console                    1     80,988 K
-ServiceHub.VSDetouredHost    20812 Console                    1     87,816 K
-ServiceHub.IdentityHost.e     7356 Console                    1     78,904 K
-ServiceHub.Host.dotnet.x6    10800 Console                    1    235,724 K
-ServiceHub.RoslynCodeAnal    14272 Console                    1    296,740 K
-ServiceHub.ThreadedWaitDi    10564 Console                    1    110,892 K
-ServiceHub.IntellicodeMod    23124 Console                    1    353,732 K
-copilot-language-server.e     4720 Console                    1     94,856 K
-conhost.exe                   7164 Console                    1      6,092 K
-ServiceHub.IndexingServic     2088 Console                    1     78,600 K
-ServiceHub.TestWindowStor     3164 Console                    1     66,376 K
-chrome.exe                   14392 Console                    1     78,256 K
-chrome.exe                   12124 Console                    1     58,036 K
-msedgewebview2.exe           17448 Console                    1     21,512 K
-MSBuild.exe                   7576 Console                    1     50,732 K
-conhost.exe                  21296 Console                    1      7,592 K
-VBCSCompiler.exe             15364 Console                    1     88,056 K
-conhost.exe                  23212 Console                    1      6,920 K
-ServiceHub.DataWarehouseH     9736 Console                    1    167,220 K
-VsDebugConsole.exe           23544 Console                    1      5,440 K
-conhost.exe                  10992 Console                    1     16,896 K
-svchost.exe                  11672 Services                   0      7,616 K
-msvsmon.exe                  17288 Console                    1     41,724 K
-svchost.exe                   7136 Services                   0      7,996 K
-PhoneExperienceHost.exe       1896 Console                    1    154,552 K
-chrome.exe                   16388 Console                    1     33,516 K
-SearchProtocolHost.exe       15056 Console                    1      8,656 K
-msvsmon.exe                  23004 Console                    1     40,408 K
-gitchatc2.exe                11780 Console                    1     34,560 K
-msedgewebview2.exe            9972 Console                    1    107,948 K
-msedgewebview2.exe           22844 Console                    1      8,060 K
-msedgewebview2.exe            1408 Console                    1     71,948 K
-msedgewebview2.exe           12832 Console                    1     33,656 K
-msedgewebview2.exe            3388 Console                    1     19,404 K
-msedgewebview2.exe            4308 Console                    1     62,072 K
-msedgewebview2.exe           12400 Console                    1    146,476 K
-VsDebugConsole.exe           20052 Console                    1      5,440 K
-conhost.exe                  20520 Console                    1     16,972 K
-server-side.exe              20064 Console                    1     33,460 K
-SearchFilterHost.exe         18760 Services                   0      7,644 K
-msedgewebview2.exe            9704 Console                    1    105,224 K
-msedgewebview2.exe           20596 Console                    1      8,040 K
-msedgewebview2.exe           19940 Console                    1     72,252 K
-msedgewebview2.exe           13244 Console                    1     29,204 K
-msedgewebview2.exe           23108 Console                    1     19,852 K
-msedgewebview2.exe           21860 Console                    1    106,368 K
-msedgewebview2.exe           19444 Console                    1     60,104 K
-RuntimeBroker.exe            14476 Console                    1      8,712 K
-RuntimeBroker.exe            18368 Console                    1     30,728 K
-svchost.exe                  19140 Services                   0     17,496 K
-WmiPrvSE.exe                 10736 Services                   0     12,040 K
-TrustedInstaller.exe          7364 Services                   0      7,836 K
-TiWorker.exe                  9916 Services                   0     10,344 K
-svchost.exe                  11884 Services                   0      7,908 K
-backgroundTaskHost.exe        7512 Console                    1     27,264 K
-svchost.exe                  19748 Services                   0     10,176 K
-cmd.exe                       6248 Console                    1      5,740 K
-conhost.exe                  20400 Console                    1     11,604 K
-cmd.exe                      21160 Console                    1      5,396 K
-tasklist.exe                 20136 Console                    1      9,836 K
+Folder: \
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+OneDrive Reporting Task-S-1-5-21-3341343 9/11/2025 3:39:02 PM   Ready          
+OneDrive Standalone Update Task-S-1-5-21 9/11/2025 4:09:52 PM   Ready          
+OneDrive Startup Task-S-1-5-21-334134304 N/A                    Ready          
+
+Folder: \GoogleSystem
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\OneCore
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\VisualStudio
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\VisualStudio\Updates
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BackgroundDownload                       N/A                    Ready          
+
+Folder: \Microsoft\Windows
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\.NET Framework
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+.NET Framework NGEN v4.0.30319           N/A                    Ready          
+.NET Framework NGEN v4.0.30319 64        N/A                    Ready          
+.NET Framework NGEN v4.0.30319 64 Critic N/A                    Disabled       
+.NET Framework NGEN v4.0.30319 Critical  N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Active Directory Rights Management Services Client
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AD RMS Rights Policy Template Management N/A                    Disabled       
+AD RMS Rights Policy Template Management N/A                    Ready          
+
+Folder: \Microsoft\Windows\AppID
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+PolicyConverter                          N/A                    Disabled       
+VerifiedPublisherCertStoreCheck          N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Application Experience
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MareBackup                               N/A                    Ready          
+Microsoft Compatibility Appraiser        9/11/2025 4:14:28 AM   Ready          
+PcaPatchDbTask                           9/11/2025 4:41:00 AM   Ready          
+PcaWallpaperAppDetect                    9/13/2025 12:00:18 PM  Ready          
+ProgramDataUpdater                       N/A                    Ready          
+StartupAppTask                           N/A                    Ready          
+
+Folder: \Microsoft\Windows\ApplicationData
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+appuriverifierdaily                      N/A                    Ready          
+appuriverifierinstall                    N/A                    Ready          
+CleanupTemporaryState                    N/A                    Ready          
+DsSvcCleanup                             N/A                    Ready          
+
+Folder: \Microsoft\Windows\AppListBackup
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Backup                                   N/A                    Ready          
+BackupNonMaintenance                     9/12/2025 12:54:45 AM  Ready          
+
+Folder: \Microsoft\Windows\AppxDeploymentClient
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Pre-staged app cleanup                   N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Autochk
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Proxy                                    N/A                    Ready          
+
+Folder: \Microsoft\Windows\BitLocker
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BitLocker Encrypt All Drives             N/A                    Ready          
+BitLocker MDM policy Refresh             N/A                    Ready          
+
+Folder: \Microsoft\Windows\Bluetooth
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UninstallDeviceTask                      N/A                    Ready          
+
+Folder: \Microsoft\Windows\BrokerInfrastructure
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BgTaskRegistrationMaintenanceTask        N/A                    Ready          
+
+Folder: \Microsoft\Windows\CertificateServicesClient
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UserTask                                 N/A                    Ready          
+UserTask-Roam                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Chkdsk
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ProactiveScan                            N/A                    Ready          
+SyspartRepair                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Clip
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ClipESUConsumer                          9/13/2025 8:51:15 AM   Ready          
+
+Folder: \Microsoft\Windows\CloudExperienceHost
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Ready          
+
+Folder: \Microsoft\Windows\CloudRestore
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Backup                                   9/16/2025 3:08:44 PM   Ready          
+
+Folder: \Microsoft\Windows\ConsentUX
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\ConsentUX\UnifiedConsent
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UnifiedConsentSyncTask                   9/11/2025 12:12:44 PM  Ready          
+
+Folder: \Microsoft\Windows\Customer Experience Improvement Program
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Consolidator                             9/10/2025 6:00:00 PM   Ready          
+UsbCeip                                  N/A                    Ready          
+
+Folder: \Microsoft\Windows\Data Integrity Scan
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Data Integrity Check And Scan            9/10/2025 11:41:15 PM  Ready          
+Data Integrity Scan                      N/A                    Ready          
+Data Integrity Scan for Crash Recovery   N/A                    Ready          
+
+Folder: \Microsoft\Windows\Defrag
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ScheduledDefrag                          N/A                    Ready          
+
+Folder: \Microsoft\Windows\Device Information
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Device                                   9/11/2025 4:35:34 AM   Ready          
+Device User                              N/A                    Ready          
+
+Folder: \Microsoft\Windows\Diagnosis
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RecommendedTroubleshootingScanner        N/A                    Ready          
+Scheduled                                N/A                    Ready          
+
+Folder: \Microsoft\Windows\DirectX
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+DirectXDatabaseUpdater                   N/A                    Ready          
+DXGIAdapterCache                         N/A                    Ready          
+
+Folder: \Microsoft\Windows\DiskCleanup
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SilentCleanup                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\DiskDiagnostic
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Microsoft-Windows-DiskDiagnosticDataColl N/A                    Ready          
+Microsoft-Windows-DiskDiagnosticResolver N/A                    Disabled       
+
+Folder: \Microsoft\Windows\DiskFootprint
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Diagnostics                              N/A                    Ready          
+StorageSense                             N/A                    Ready          
+
+Folder: \Microsoft\Windows\DUSM
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+dusmtask                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\EDP
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+EDP App Launch Task                      N/A                    Ready          
+EDP Auth Task                            N/A                    Ready          
+EDP Inaccessible Credentials Task        N/A                    Ready          
+StorageCardEncryption Task               N/A                    Ready          
+
+Folder: \Microsoft\Windows\ExploitGuard
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ExploitGuard MDM policy Refresh          N/A                    Ready          
+
+Folder: \Microsoft\Windows\Feedback
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Feedback\Siuf
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+DmClient                                 N/A                    Ready          
+DmClientOnScenarioDownload               N/A                    Ready          
+
+Folder: \Microsoft\Windows\File Classification Infrastructure
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Property Definition Sync                 N/A                    Disabled       
+
+Folder: \Microsoft\Windows\FileHistory
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+File History (maintenance mode)          N/A                    Ready          
+
+Folder: \Microsoft\Windows\Flighting
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Flighting\FeatureConfig
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ReconcileFeatures                        N/A                    Ready          
+UsageDataFlushing                        N/A                    Ready          
+UsageDataReporting                       N/A                    Ready          
+
+Folder: \Microsoft\Windows\Flighting\OneSettings
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RefreshCache                             9/10/2025 5:15:15 PM   Ready          
+
+Folder: \Microsoft\Windows\Input
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+LocalUserSyncDataAvailable               N/A                    Ready          
+MouseSyncDataAvailable                   N/A                    Ready          
+PenSyncDataAvailable                     N/A                    Ready          
+TouchpadSyncDataAvailable                N/A                    Ready          
+
+Folder: \Microsoft\Windows\InstallService
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ScanForUpdates                           9/11/2025 7:10:27 PM   Ready          
+ScanForUpdatesAsUser                     N/A                    Ready          
+WakeUpAndContinueUpdates                 N/A                    Disabled       
+WakeUpAndScanForUpdates                  N/A                    Disabled       
+
+Folder: \Microsoft\Windows\International
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Synchronize Language Settings            N/A                    Ready          
+
+Folder: \Microsoft\Windows\LanguageComponentsInstaller
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Installation                             N/A                    Ready          
+ReconcileLanguageResources               N/A                    Ready          
+
+Folder: \Microsoft\Windows\Live
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Location
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Notifications                            N/A                    Ready          
+WindowsActionDialog                      N/A                    Ready          
+
+Folder: \Microsoft\Windows\Maintenance
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+WinSAT                                   N/A                    Ready          
+
+Folder: \Microsoft\Windows\Management
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Management\Autopilot
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+DetectHardwareChange                     N/A                    Disabled       
+RemediateHardwareChange                  N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Management\Provisioning
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Cellular                                 N/A                    Ready          
+Logon                                    N/A                    Ready          
+Retry                                    N/A                    Disabled       
+RunOnReboot                              N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Maps
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MapsToastTask                            N/A                    Ready          
+MapsUpdateTask                           N/A                    Disabled       
+
+Folder: \Microsoft\Windows\MemoryDiagnostic
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ProcessMemoryDiagnosticEvents            N/A                    Ready          
+RunFullMemoryDiagnostic                  N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Mobile Broadband Accounts
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MNO Metadata Parser                      N/A                    Ready          
+
+Folder: \Microsoft\Windows\MUI
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+LPRemove                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\Multimedia
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SystemSoundsService                      N/A                    Running        
+
+Folder: \Microsoft\Windows\NetTrace
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+GatherNetworkInfo                        N/A                    Ready          
+
+Folder: \Microsoft\Windows\NlaSvc
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\Offline Files
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Background Synchronization               N/A                    Disabled       
+Logon Synchronization                    N/A                    Disabled       
+
+Folder: \Microsoft\Windows\PLA
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Plug and Play
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Device Install Group Policy              N/A                    Ready          
+Device Install Reboot Required           N/A                    Ready          
+Sysprep Generalize Drivers               N/A                    Ready          
+
+Folder: \Microsoft\Windows\Power Efficiency Diagnostics
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AnalyzeSystem                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Printing
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+EduPrintProv                             N/A                    Ready          
+PrinterCleanupTask                       10/1/2025 12:00:00 PM  Ready          
+
+Folder: \Microsoft\Windows\RecoveryEnvironment
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+VerifyWinRE                              N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Registry
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RegIdleBackup                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Servicing
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+StartComponentCleanup                    N/A                    Ready          
+
+Folder: \Microsoft\Windows\SettingSync
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BackgroundUploadTask                     N/A                    Ready          
+NetworkStateChangeTask                   N/A                    Ready          
+
+Folder: \Microsoft\Windows\SharedPC
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Account Cleanup                          N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Shell
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CreateObjectTask                         N/A                    Ready          
+FamilySafetyMonitor                      N/A                    Ready          
+FamilySafetyRefreshTask                  N/A                    Ready          
+IndexerAutomaticMaintenance              N/A                    Ready          
+ThemesSyncedImageDownload                N/A                    Ready          
+
+Folder: \Microsoft\Windows\SoftwareProtectionPlatform
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SvcRestartTaskLogon                      N/A                    Disabled       
+
+Folder: \Microsoft\Windows\SpacePort
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SpaceAgentTask                           N/A                    Ready          
+SpaceManagerTask                         N/A                    Ready          
+
+Folder: \Microsoft\Windows\StateRepository
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MaintenanceTasks                         N/A                    Ready          
+
+Folder: \Microsoft\Windows\Storage Tiers Management
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Storage Tiers Management Initialization  N/A                    Ready          
+Storage Tiers Optimization               N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Subscription
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+EnableLicenseAcquisition                 N/A                    Ready          
+LicenseAcquisition                       N/A                    Disabled       
+
+Folder: \Microsoft\Windows\Sysmain
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+HybridDriveCachePrepopulate              N/A                    Disabled       
+HybridDriveCacheRebalance                N/A                    Disabled       
+ResPriStaticDbSync                       N/A                    Ready          
+WsSwapAssessmentTask                     N/A                    Ready          
+
+Folder: \Microsoft\Windows\SystemRestore
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SR                                       N/A                    Ready          
+
+Folder: \Microsoft\Windows\Task Manager
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Interactive                              N/A                    Ready          
+
+Folder: \Microsoft\Windows\TextServicesFramework
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MsCtfMonitor                             N/A                    Ready          
+
+Folder: \Microsoft\Windows\Time Synchronization
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ForceSynchronizeTime                     N/A                    Ready          
+SynchronizeTime                          N/A                    Ready          
+
+Folder: \Microsoft\Windows\Time Zone
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SynchronizeTimeZone                      N/A                    Ready          
+
+Folder: \Microsoft\Windows\UNP
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RunUpdateNotificationMgr                 N/A                    Disabled       
+
+Folder: \Microsoft\Windows\UPnP
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UPnPHostConfig                           N/A                    Ready          
+
+Folder: \Microsoft\Windows\USB
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Usb-Notifications                        N/A                    Ready          
+
+Folder: \Microsoft\Windows\WCM
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+WiFiTask                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\WDI
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ResolutionHost                           N/A                    Ready          
+
+Folder: \Microsoft\Windows\Windows Defender
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Windows Defender Cache Maintenance       N/A                    Ready          
+Windows Defender Cleanup                 N/A                    Ready          
+Windows Defender Scheduled Scan          N/A                    Ready          
+Windows Defender Verification            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Windows Error Reporting
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+QueueReporting                           9/10/2025 5:02:45 PM   Ready          
+
+Folder: \Microsoft\Windows\Windows Filtering Platform
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BfeOnServiceStartTypeChange              N/A                    Ready          
+
+Folder: \Microsoft\Windows\Windows Media Sharing
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UpdateLibrary                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\WindowsColorSystem
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Calibration Loader                       N/A                    Ready          
+
+Folder: \Microsoft\Windows\WindowsUpdate
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Scheduled Start                          9/11/2025 12:13:50 PM  Ready          
+
+Folder: \Microsoft\Windows\Wininet
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CacheTask                                N/A                    Running        
+
+Folder: \Microsoft\Windows\WlanSvc
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CDSSync                                  N/A                    Ready          
+
+Folder: \Microsoft\Windows\Work Folders
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Work Folders Logon Synchronization       N/A                    Ready          
+Work Folders Maintenance Work            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Workplace Join
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Automatic-Device-Join                    N/A                    Disabled       
+Device-Sync                              N/A                    Disabled       
+Recovery-Check                           N/A                    Disabled       
+
+Folder: \Microsoft\Windows\WwanSvc
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+NotificationTask                         N/A                    Ready          
+OobeDiscovery                            N/A                    Ready          
+
+Folder: \Microsoft\XblGameSave
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+XblGameSaveTask                          N/A                    Ready          
 
 D:\democ2\gitchatc2\bin\Debug>
 D:\democ2\gitchatc2\bin\Debug>
