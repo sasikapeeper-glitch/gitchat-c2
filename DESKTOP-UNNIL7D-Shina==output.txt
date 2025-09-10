@@ -1,8 +1,95 @@
 Microsoft Windows [Version 10.0.19045.6216]
 (c) Microsoft Corporation. All rights reserved.
 
-D:\democ2\gitchatc2\bin\Debug>cmd /k whoami
-desktop-unnil7d\shina
+D:\democ2\gitchatc2\bin\Debug>cmd /k ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-UNNIL7D
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Unknown adapter OpenVPN TAP-Windows6:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TAP-Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-0E-1A-F0-DD
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Unknown adapter OpenVPN Data Channel Offload:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : OpenVPN Data Channel Offload
+   Physical Address. . . . . . . . . : 
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Intel(R) Ethernet Connection (2) I219-LM
+   Physical Address. . . . . . . . . : 48-4D-7E-EC-F3-C3
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::95b4:a130:b458:fc85%15(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.12.0.120(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+   Lease Obtained. . . . . . . . . . : Tuesday, September 9, 2025 11:50:39 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 10, 2025 5:50:36 PM
+   Default Gateway . . . . . . . . . : 10.12.0.1
+   DHCP Server . . . . . . . . . . . : 10.12.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 105401726
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-28-32-A6-48-4D-7E-EC-F3-C3
+   DNS Servers . . . . . . . . . . . : 10.12.0.1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::2d:93ab:4d06:94f9%7(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.10.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, September 9, 2025 11:50:32 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 10, 2025 4:50:27 PM
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.10.254
+   DHCPv6 IAID . . . . . . . . . . . : 251678806
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-28-32-A6-48-4D-7E-EC-F3-C3
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::3653:3979:4b2c:2f5f%14(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.25.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, September 9, 2025 11:50:25 AM
+   Lease Expires . . . . . . . . . . : Wednesday, September 10, 2025 4:50:25 PM
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.25.254
+   DHCPv6 IAID . . . . . . . . . . . : 268456022
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-30-28-32-A6-48-4D-7E-EC-F3-C3
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   Primary WINS Server . . . . . . . : 192.168.25.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
 
 D:\democ2\gitchatc2\bin\Debug>
 D:\democ2\gitchatc2\bin\Debug>
